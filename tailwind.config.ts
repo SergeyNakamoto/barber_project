@@ -16,6 +16,7 @@ const config: Config = {
       backgroundImage: {
         'barber1': 'url("/hinh1.jpeg")',
         'barber2': 'url("/hinh6.jpeg")',
+        'barber3': 'url("/hinh7.jpeg")',
         'icon1': 'url("/icon1.png")',
         'icon2': 'url("/icon2.png")',
         'icon3': 'url("/icon3.png")',
@@ -28,7 +29,9 @@ const config: Config = {
           200: '#C89F94',
           400: '#A25F4B',
           600: '#744838'
-        }
+        },
+        'combo-color' : 'rgba(180,127,65,0.4)',
+        'combo-hovered' : 'rgba(180,127,65,1)'
       },
 
     },
