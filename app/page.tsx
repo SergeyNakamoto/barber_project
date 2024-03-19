@@ -128,18 +128,18 @@ export default function Home() {
         <div className="services-content bg-[rgb(245,242,234)] w-full h-[450px]">
           <div className="p-services-content p-16 min-h-full">
             <div className="services-title text-center flex justify-center ">
-              <h1 className="text-7xl font-semibold leading-none border-r-4 border-black pr-4">
+              <h1 className="text-6xl font-semibold leading-none border-r-4 border-black pr-4">
                 Our Services
               </h1>
               <p className="pl-4 text-3xl">Dịch vụ</p>
             </div>
-            <div className="flex-custom mt-16">
+            <div className="flex-custom mt-16 gap-24">
               <div className="wrap-services-content-detail">
                 <div className="flex-icon-content">
                   <div className="bg-icon1 bg-no-repeat bg-contain h-16 w-16"></div>
                 </div>
                 <div className="mt-8">
-                  <h1 className="font-bold text-2xl">CẮT TÓC</h1>
+                  <h1 className="font-bold text-2xl mb-4">CẮT TÓC</h1>
                   <p>Cắt tóc chuyên nghiệp chỉ với 120.000 VND</p>
                 </div>
               </div>
