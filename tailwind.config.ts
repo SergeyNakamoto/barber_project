@@ -17,6 +17,10 @@ const config: Config = {
         'barber1': 'url("/hinh1.jpeg")',
         'barber2': 'url("/hinh6.jpeg")',
         'icon1': 'url("/icon1.png")',
+        'icon2': 'url("/icon2.png")',
+        'icon3': 'url("/icon3.png")',
+        'icon4': 'url("/icon4.png")',
+        'icon5': 'url("/icon5.png")',
       },
       colors: {
         'coffee': {
