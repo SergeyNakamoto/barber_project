@@ -52,13 +52,19 @@ body {
   .subheadline-deco-line {
     @apply w-8 h-px bg-gray-200;
   }
-  .wrap-services-content-detail{
-    @apply text-center
+  .wrap-services-content-detail {
+    @apply text-center;
   }
-  .flex-custom{
-    @apply flex flex-row justify-between items-center
+  .flex-custom {
+    @apply flex flex-row justify-between items-center;
   }
-  .flex-icon-content{
-    @apply flex flex-col flex-wrap justify-center items-center
+  .flex-icon-content {
+    @apply flex flex-col flex-wrap justify-center items-center;
+  }
+  .services-content-title {
+    @apply font-bold text-2xl mb-4;
+  }
+  .combo-box{
+    @apply text-white text-center w-2/6 p-12  bg-combo-color cursor-pointer hover:bg-combo-hovered duration-300
   }
 }

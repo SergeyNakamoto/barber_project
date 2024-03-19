@@ -122,7 +122,7 @@ export default function Home() {
                   <div className="bg-icon1 bg-no-repeat bg-contain h-16 w-16"></div>
                 </div>
                 <div className="mt-8">
-                  <h1 className="font-bold text-2xl mb-4">CẮT TÓC</h1>
+                  <h1 className="services-content-title">CẮT TÓC</h1>
                   <p>Cắt tóc chuyên nghiệp chỉ với 120.000 VND</p>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function Home() {
                   <div className="bg-icon2 bg-no-repeat bg-contain h-16 w-16"></div>
                 </div>
                 <div className="mt-8">
-                  <h1 className="font-bold text-2xl mb-4">CẠO RÂU</h1>
+                  <h1 className="services-content-title">CẠO RÂU</h1>
                   <p>Chăm sóc và cạo râu với giá 50.000 VND</p>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function Home() {
                   <div className="bg-icon3 bg-no-repeat bg-contain h-16 w-16"></div>
                 </div>
                 <div className="mt-8">
-                  <h1 className="font-bold text-2xl mb-4">CẠO MẶT</h1>
+                  <h1 className="services-content-title">CẠO MẶT</h1>
                   <p>Cạo mặt sạch sẽ, láng mịn 20.000 VND</p>
                 </div>
               </div>
@@ -149,7 +149,7 @@ export default function Home() {
                   <div className="bg-icon4 bg-no-repeat bg-contain h-16 w-16"></div>
                 </div>
                 <div className="mt-8">
-                  <h1 className="font-bold text-2xl mb-4">TẠO KIỂU TÓC</h1>
+                  <h1 className="services-content-title">TẠO KIỂU TÓC</h1>
                   <p>Tạo kiểu tóc ấn tượng với giá 30.000 VND</p>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function Home() {
                   <div className="bg-icon5 bg-no-repeat bg-contain h-16 w-16"></div>
                 </div>
                 <div className="mt-8">
-                  <h1 className="font-bold text-2xl mb-4">NHUỘM MÀU</h1>
+                  <h1 className="services-content-title">NHUỘM MÀU</h1>
                   <p>Nhuộm màu thời trang chỉ với 500.000 - 750.000 VND</p>
                 </div>
               </div>
@@ -169,7 +169,9 @@ export default function Home() {
           <div className="py-20 relative w-full bg-barber2 bg-no-repeat bg-right-top h-[620px] bg-fixed">
             <div className="container mx-auto w-4/5 h-auto">
               <div className="wrap-content w-1/2 py-20">
-                <div className="text-white text-7xl pb-10">Chúng tôi là</div>
+                <div className="text-white text-7xl pb-10 font-bold">
+                  Chúng tôi là
+                </div>
                 <div className="text-white text-base">
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -178,6 +180,39 @@ export default function Home() {
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <div className="h-[620px] bg-barber3 bg-fixed p-12">
+            <div className="text-white font-bold text-7xl text-center mb-12">
+              Combo Corner
+            </div>
+            <div className="flex gap-6">
+              <div className="combo-box">
+                <h1 className="services-content-title">Basic Haircut Combo</h1>
+                <p className="font-bold text-xl">GIÁ CẮT : 120K</p>
+                <p>(XẢ - CẮT - TẠO KIỂU)</p>
+                <h3 className="mt-4 text-2xl">
+                  COMBO 2 NGƯỜI: 110K/NGƯỜI <br /> COMBO 4 NGƯỜI: 100K/NGƯỜI
+                </h3>
+              </div>
+              <div className="combo-box">
+                <h1 className="services-content-title">Cut & Perm Combo</h1>
+                <p className="font-bold text-xl">GIÁ UỐN : 300KK</p>
+                <p>COMBO CẮT UỐN: 410K</p>
+                <h3 className="mt-4 text-2xl">
+                  COMBO 2 NGƯỜI: 380K/NGƯỜI <br /> COMBO 4 NGƯỜI: 340K/NGƯỜI
+                </h3>
+              </div>
+              <div className="combo-box">
+                <h1 className="services-content-title">Dye & Balayage Combo</h1>
+                <p className="font-bold text-xl">GIÁ NHUỘM : 500K - 750K</p>
+                <p>(TẨY TÓC: 250K - 350K/ LẦN)</p>
+                <h3 className="mt-4 text-2xl">
+                  COMBO 2 NGƯỜI: 300K/NGƯỜI <br /> COMBO 4 NGƯỜI: 250K/NGƯỜI
+                </h3>
               </div>
             </div>
           </div>
