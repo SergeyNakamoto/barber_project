@@ -108,25 +108,8 @@ export default function Home() {
             </div>
           </div>
         </main>
-        <div className="bg-[#0f0a05] w-full">
-          <div className="py-20 relative w-full bg-barber2 bg-no-repeat bg-right-top h-[620px]">
-            <div className="container mx-auto w-4/5 h-auto">
-              <div className="wrap-content w-1/2 py-20">
-                <div className="text-white text-7xl pb-10">Chúng tôi là</div>
-                <div className="text-white text-base">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="services-content bg-[rgb(245,242,234)] w-full h-[450px]">
-          <div className="p-services-content p-16 min-h-full">
+          <div className="p-services-content py-16 px-28 min-h-full">
             <div className="services-title text-center flex justify-center ">
               <h1 className="text-6xl font-semibold leading-none border-r-4 border-black pr-4">
                 Our Services
@@ -144,31 +127,56 @@ export default function Home() {
                 </div>
               </div>
               <div className="wrap-services-content-detail">
-                <div className="bg-icon1 bg-no-repeat bg-contain h-14"></div>
-                <div>
-                  <h1>CẠO RÂU</h1>
+                <div className="flex-icon-content">
+                  <div className="bg-icon2 bg-no-repeat bg-contain h-16 w-16"></div>
+                </div>
+                <div className="mt-8">
+                  <h1 className="font-bold text-2xl mb-4">CẠO RÂU</h1>
                   <p>Chăm sóc và cạo râu với giá 50.000 VND</p>
                 </div>
               </div>
               <div className="wrap-services-content-detail">
-                <div className="bg-icon1 bg-no-repeat bg-contain h-14"></div>
-                <div>
-                  <h1>CẠO MẶT</h1>
+                <div className="flex-icon-content">
+                  <div className="bg-icon3 bg-no-repeat bg-contain h-16 w-16"></div>
+                </div>
+                <div className="mt-8">
+                  <h1 className="font-bold text-2xl mb-4">CẠO MẶT</h1>
                   <p>Cạo mặt sạch sẽ, láng mịn 20.000 VND</p>
                 </div>
               </div>
               <div className="wrap-services-content-detail">
-                <div className="bg-icon1 bg-no-repeat bg-contain h-14"></div>
-                <div>
-                  <h1>TẠO KIỂU TÓC</h1>
+                <div className="flex-icon-content">
+                  <div className="bg-icon4 bg-no-repeat bg-contain h-16 w-16"></div>
+                </div>
+                <div className="mt-8">
+                  <h1 className="font-bold text-2xl mb-4">TẠO KIỂU TÓC</h1>
                   <p>Tạo kiểu tóc ấn tượng với giá 30.000 VND</p>
                 </div>
               </div>
               <div className="wrap-services-content-detail">
-                <div className="bg-icon1 bg-no-repeat bg-contain h-14"></div>
-                <div>
-                  <h1>NHUỘM MÀU</h1>
-                  <p>Nhuộm màu thời trang từ 500.000 - 750.000 VND</p>
+                <div className="flex-icon-content">
+                  <div className="bg-icon5 bg-no-repeat bg-contain h-16 w-16"></div>
+                </div>
+                <div className="mt-8">
+                  <h1 className="font-bold text-2xl mb-4">NHUỘM MÀU</h1>
+                  <p>Nhuộm màu thời trang chỉ với 500.000 - 750.000 VND</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#0f0a05] w-full">
+          <div className="py-20 relative w-full bg-barber2 bg-no-repeat bg-right-top h-[620px] bg-fixed">
+            <div className="container mx-auto w-4/5 h-auto">
+              <div className="wrap-content w-1/2 py-20">
+                <div className="text-white text-7xl pb-10">Chúng tôi là</div>
+                <div className="text-white text-base">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
                 </div>
               </div>
             </div>
