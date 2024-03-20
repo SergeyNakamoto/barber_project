@@ -1,3 +1,5 @@
+"use client";
+import ContactForm from "./components/contactForm";
 export default function Home() {
   return (
     <div className="h-[3000px]">
@@ -90,7 +92,7 @@ export default function Home() {
             <div className="w-full h-full flex justify-center items-center bg-black bg-opacity-60">
               <div className="mx-16 text-white text-center">
                 <div className="uppercase mb-6">
-                  The Ultimate Destination for Grooming
+                  The Ultimate Destination htmlFor Grooming
                 </div>
                 <div className="font-Inspiration text-7xl mb-6">
                   Sài Gòn Corner Barber Shop
@@ -108,7 +110,7 @@ export default function Home() {
             </div>
           </div>
         </main>
-        <div className="services-content bg-[rgb(245,242,234)] w-full h-[450px]">
+        <div className="services-content bg-services-color w-full h-[450px] text-black">
           <div className="p-services-content py-16 px-28 min-h-full">
             <div className="services-title text-center flex justify-center ">
               <h1 className="text-6xl font-semibold leading-none border-r-4 border-black pr-4">
@@ -185,7 +187,7 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-          <div className="h-[620px] bg-barber3 bg-fixed p-12">
+          <div className="h-[620px] bg-barber3 bg-fixed p-12 bg-cover bg-no-repeat">
             <div className="text-white font-bold text-7xl text-center mb-12">
               Combo Corner
             </div>
@@ -215,6 +217,17 @@ export default function Home() {
                 </h3>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="bg-contact-color flex justify-center p-12 text-black">
+          <div className="basis-1/2 p-20">
+            <div className="h-full bg-barber4 bg-no-repeat bg-cover bg-center border-4 border-solid border-black"></div>
+          </div>
+          <div className="basis-1/2 ">
+            <div className="font-bold text-5xl text-center m-6">
+              Liên hệ chúng tôi
+            </div>
+            <ContactForm />
           </div>
         </div>
       </div>
