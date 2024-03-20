@@ -1,5 +1,6 @@
 "use client";
 import ContactForm from "./components/contactForm";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div className="h-[3000px]">
@@ -230,6 +231,9 @@ export default function Home() {
             <ContactForm />
           </div>
         </div>
+      </div>
+      <div className="">
+        <Footer />
       </div>
     </div>
   );
