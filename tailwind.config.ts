@@ -17,6 +17,7 @@ const config: Config = {
         'barber1': 'url("/hinh1.jpeg")',
         'barber2': 'url("/hinh6.jpeg")',
         'barber3': 'url("/hinh7.jpeg")',
+        'barber4': 'url("/hinh8.jpeg")', 
         'icon1': 'url("/icon1.png")',
         'icon2': 'url("/icon2.png")',
         'icon3': 'url("/icon3.png")',
@@ -31,7 +32,10 @@ const config: Config = {
           600: '#744838'
         },
         'combo-color' : 'rgba(180,127,65,0.4)',
-        'combo-hovered' : 'rgba(180,127,65,1)'
+        'combo-hovered' : 'rgba(180,127,65,1)',
+        'services-color' : 'rgb(245,242,234)',
+        'contact-color' : 'rgb(235,232,222)',
+        
       },
 
     },
